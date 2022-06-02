@@ -1,16 +1,22 @@
-{
+[
+  {
   
-  "ID": 101 ,
-  "Title": "The field for entering email and password when logging into a personal account is not active",
-  "Environment": "Windows 10, Home Version",
-  "Preconditions": "Open qwerty.exe"
-  "STR":{
+    "ID": 101 ,
+    "Title": "The field for entering email and password when logging into a personal account is not active",
+    "Environment": "Windows 10, Home Version",
+    "Preconditions": "Open qwerty.exe"
+  },
+    { 
+      "STR": {
           "Step1":"Enter email",
           "Step2":"Enter password"          
-        },
+          }
+    }, 
+  {       
   "Expected Result":"The input field is blocked",
   "Actual Result":"The input field allows you to enter data for authorization",
   "Attachments": "qwerty.jpg",
   "Priority": "Blocker",
   "Severity": "High"
-}
+ }
+]
